@@ -1,0 +1,28 @@
+ActiveAdmin.register Student do
+
+  # See permitted parameters documentation:
+  # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
+  #
+  # Uncomment all parameters which should be permitted for assignment
+  #
+  #  permit_params :name, :age, :email ,:image
+  #  form partial: 'form'
+
+  #  show do
+  #   attributes_table do
+  #     row :name
+  #     row :image do |ad|
+  #       image_tag url_for(/image)
+  #     end
+  #   end
+  #  end
+  #
+  # or
+  #
+  # permit_params do
+  #   permitted = [:name, :age, :email]
+  #   permitted << :other if params[:action] == 'create' && current_user.admin?
+  #   permitted
+  # end
+  
+end

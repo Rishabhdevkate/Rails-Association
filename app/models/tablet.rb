@@ -1,0 +1,2 @@
+class Tablet < Mobile
+end
